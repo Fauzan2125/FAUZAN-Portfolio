@@ -715,3 +715,59 @@ svg.tech-icon {
     border-radius: 50px;
     text-decoration: none;
 }
+
+/* =========================================
+   Responsive Mobile Fixes
+   ========================================= */
+@media (max-width: 768px) {
+    /* 1. Membuat grid portfolio otomatis menjadi 1 kolom di HP */
+    .portfolio-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px;
+        padding: 0 4px;
+    }
+
+    /* 2. Membuat tombol filter melipat rapi ke bawah jika tidak muat */
+    .portfolio-filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+
+    .filter-btn {
+        font-size: 0.85rem;
+        padding: 6px 14px;
+    }
+
+    /* 3. Menyesuaikan tinggi gambar proyek agar proporsional di HP */
+    .project-img, .card-img-placeholder {
+        height: 190px;
+    }
+
+    /* 4. Menyesuaikan ukuran teks judul agar tidak terlalu besar */
+    .card-content h3 {
+        font-size: 1.25rem;
+        margin-bottom: 8px;
+    }
+
+    /* 5. Merapikan tombol aksi di bawah kartu agar tetap sejajar */
+    .card-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        padding-top: 16px;
+        margin-top: 20px;
+    }
+
+    .toggle-details-btn {
+        font-size: 0.88rem;
+    }
+
+    .direct-link {
+        padding: 6px 16px;
+        font-size: 0.8rem;
+    }
+}
