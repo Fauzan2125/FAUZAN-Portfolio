@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Fauzan Al Ayubi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Fauzan.<span>UI/UX</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero section">
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <p class="greeting">Halo, perkenalkan saya</p>
+                <h1 class="hero-name">Ahmad Fauzan Al Ayubi</h1>
+                <h2 class="hero-role"><span class="typing-text"></span></h2>
+                <p class="hero-desc">Mahasiswa Sistem Informasi yang penuh semangat dalam pengembangan perangkat lunak dan teknologi informasi. Saya memadukan logika pemrograman dengan prinsip desain untuk menghadirkan solusi yang inovatif dan user-centric.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="assets/docs/AhmadFauzanAlAyubi_CV.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal fade-right">
+                <div class="glass-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="abstract-ui">
+                            <div class="ui-element el-1"></div>
+                            <div class="ui-element el-2"></div>
+                            <div class="ui-element el-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About <span>Me</span></h2>
+                <p>Mengenal lebih dekat tentang perjalanan dan passion saya.</p>
+            </div>
+            <div class="about-card glass-panel reveal">
+
+                <img src="assets/images/foto-fauzan.jpg" alt="Ahmad Fauzan Al Ayubi" class="profile-img">
+                
+                <div class="about-info">
+                    <h3>Sistem Informasi, Universitas Indonesia</h3>
+                    <p>Keunggulan saya terletak pada merancang, menganalisis, dan mengeksekusi sistem informasi secara efektif untuk meningkatkan efisiensi operasional. Saya siap memberikan kontribusi maksimal dan terus beradaptasi dalam era transformasi digital ini.</p>
+                </div>
+                <div class="stats-wrapper reveal">
+                    <div class="stat-item">
+                        <h4 class="counter stat-number" data-target="10">0</h4>
+                        <p class="stat-text">Projects<br>Completed</p>
+                    </div>
+                    
+                    <div class="stat-divider"></div>
+                    
+                    <div class="stat-item">
+                        <h4 class="counter stat-number" data-target="2">0</h4>
+                        <p class="stat-text">Years<br>Experience</p>
+                    </div>
+                    
+                    <div class="stat-divider"></div>
+                    
+                    <div class="stat-item">
+                        <h4 class="counter stat-number" data-target="12">0</h4>
+                        <p class="stat-text">Tools<br>Mastered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section bg-alt">
+        <div class="container">
+            
+            <div class="section-title reveal">
+                <h2>Tech <span>Stack</span></h2>
+                <p>Alat dan teknologi yang saya gunakan untuk menciptakan solusi digital.</p>
+            </div>
+            
+            <div class="tech-stack-grid reveal">
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" class="tech-icon">
+                    <span>Figma</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" class="tech-icon">
+                    <span>Python (Django)</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" class="tech-icon">
+                    <span>Java</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="Flutter" class="tech-icon">
+                    <span>Dart (Flutter)</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" class="tech-icon">
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" class="tech-icon">
+                    <span>HTML/CSS</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" class="tech-icon">
+                    <span>C++</span>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" class="tech-icon">
+                    <span>VS Code</span>
+                </div>
+                <!-- Tambahan dari CV -->
+                
+                <!-- 9. GitHub -->
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" class="tech-icon">
+                    <span>GitHub</span>
+                </div>
+
+                <!-- 14. Jira -->
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" alt="Jira" class="tech-icon">
+                    <span>Jira</span>
+                </div>
+
+                <!-- 15. Trello -->
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" alt="Trello" class="tech-icon">
+                    <span>Trello</span>
+                </div>
+
+                <!-- 10. Canva -->
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="Canva" class="tech-icon" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg'">
+                    <span>Canva</span>
+                </div>
+
+                <!-- 11. Microsoft Word -->
+                <div class="tech-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Microsoft_Office_Word_%282025%E2%80%93present%29.svg/960px-Microsoft_Office_Word_%282025%E2%80%93present%29.svg.png" alt="Ms. Word" class="tech-icon">
+                    <span>Ms. Word</span>
+                </div>
+
+                <!-- 12. Microsoft Excel -->
+                <div class="tech-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg/250px-Microsoft_Office_Excel_%282025%E2%80%93present%29.svg.png" alt="Ms. Excel" class="tech-icon">
+                    <span>Ms. Excel</span>
+                </div>
+
+                <!-- 13. Microsoft PowerPoint -->
+                <div class="tech-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_PowerPoint_%282025%E2%80%93present%29.svg/960px-Microsoft_Office_PowerPoint_%282025%E2%80%93present%29.svg.png" alt="Ms. PowerPoint" class="tech-icon">
+                    <span>PowerPoint</span>
+                </div>
+
+                <!-- 12. Robotics -->
+                <div class="tech-card">
+                    <!-- Menggunakan ikon SVG sederhana bergaya sirkuit/robotik -->
+                    <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                        <circle cx="12" cy="5" r="2"></circle>
+                        <path d="M12 7v4"></path>
+                        <line x1="8" y1="16" x2="8" y2="16"></line>
+                        <line x1="16" y1="16" x2="16" y2="16"></line>
+                    </svg>
+                    <span>Robotics</span>
+                </div>
+
+                <!-- 13. IoT -->
+                <div class="tech-card">
+                    <!-- Menggunakan ikon SVG bergaya sinyal/koneksi -->
+                    <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                        <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                        <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                        <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                    </svg>
+                    <span>IoT</span>
+                </div>
+            </div>
+
+            <div class="section-title reveal" style="margin-top: 100px;">
+                <h2>Professional <span>Skills</span></h2>
+                <p>Keahlian manajemen dan komunikasi dalam menjalankan proyek.</p>
+            </div>
+
+            <div class="pro-skills-container reveal">
+                <span class="skill-pill">UI/UX Strategy</span>
+                <span class="skill-pill">Product Management</span>
+                <span class="skill-pill">Project Management</span>
+                <span class="skill-pill">Problem Solving</span>
+                <span class="skill-pill">Leadership</span>
+                <span class="skill-pill">Team Work Communication</span>
+                <span class="skill-pill">Time Management</span>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured <span>Projects</span></h2>
+                <p>Kumpulan karya dan proyek digital yang telah saya kembangkan.</p>
+            </div>
+            
+            <!-- Filter Kategori -->
+            <div class="portfolio-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="organizational">Organizational</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Proyek Bikun Tracker (2026) -->
+                <!-- Tambahkan 'organizational' di dalam class -->
+                <div class="portfolio-card glass-panel reveal web mobile organizational">
+                    <img src="assets/images/bikun-cover.png" alt="Bikun Tracker Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">System Development</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>Bikun Tracker</h3>
+                        <p class="short-desc">Platform pelacakan real-time yang dirancang untuk memantau dan menampilkan posisi armada Bis Kuning (Bikun) di area kampus Universitas Indonesia.</p>
+                        <div class="project-details">
+                            <p><strong>Fokus Proyek:</strong> Mengoptimalkan mobilitas mahasiswa dengan memberikan estimasi waktu kedatangan dan lokasi bus secara akurat melalui integrasi peta digital.</p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://bikun.ui.ac.id/" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek Tutor Class (2026) -->
+                <!-- Tambahkan 'organizational' di dalam class -->
+                <div class="portfolio-card glass-panel reveal web organizational">
+                    <img src="assets/images/tutor-cover.png" alt="Tutor Class Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">EdTech Platform</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>Tutor Class</h3>
+                        <p class="short-desc">Platform edukasi yang memfasilitasi mahasiswa Universitas Indonesia untuk memesan layanan tutor dari kakak tingkat guna menunjang persiapan ujian akademik.</p>
+                        <div class="project-details">
+                            <p><strong>Fokus Proyek:</strong> Merancang alur pemesanan (booking) sesi belajar yang mulus, memfasilitasi sistem jadwal, serta pencocokan kebutuhan akademik antara mahasiswa dan mentor.</p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://classtutor.ristek.cs.ui.ac.id/" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1. Wedding Invitation (2026) -->
+                <div class="portfolio-card glass-panel reveal web">
+                    <img src="assets/images/wedding-cover.png" alt="Wedding Invitation Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Web Development</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>Wedding Invitation</h3>
+                        
+                        <p class="short-desc">Menyediakan layanan pembuatan dan pengembangan website undangan pernikahan digital.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Fokus Proyek:</strong> Membangun antarmuka yang interaktif dan sangat responsif agar dapat diakses dengan sempurna melalui berbagai perangkat, terutama mobile.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://melia-rizki-wedding.vercel.app/" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. EECL ITS Company Profile (2026) -->
+                <div class="portfolio-card glass-panel reveal web">
+                    <img src="assets/images/eecl-cover.png" alt="EECL ITS Company Profile Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Company Profile</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>EECL ITS Company Profile</h3>
+                        
+                        <p class="short-desc">Mengembangkan website company profile untuk Electric Energy Conversion Laboratory (EECL) ITS.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Tujuan:</strong> Meningkatkan visibilitas dan representasi digital laboratorium tersebut agar lebih mudah dijangkau dan dipahami oleh publik maupun akademisi.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://lab-ke.vercel.app/" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek ADOBO -->
+                <div class="portfolio-card glass-panel reveal mobile uiux">
+                    
+                    <!-- Gunakan placeholder warna dulu, ganti dengan <img> jika sudah ada gambarnya -->
+                    <img src="assets/images/adobo-cover.png" alt="EECL ITS Company Profile Project" class="project-img">
+                    <!-- <img src="assets/images/adobo-cover.jpg" alt="ADOBO Project" class="project-img"> -->
+                    
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Travel App</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>ADOBO</h3>
+                        
+                        <p class="short-desc">Aplikasi cerdas dan interaktif untuk membantu Anda merencanakan perjalanan wisata dengan mudah.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Fokus Proyek:</strong> Merancang antarmuka yang intuitif agar pengguna dapat menyusun *itinerary* (jadwal perjalanan), mencari rekomendasi tempat wisata, dan mengatur rencana liburan secara terstruktur di dalam satu aplikasi.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://ristek.link/Prototype_ADOBO_Mobile" target="_blank" class="btn btn-primary btn-sm direct-link">Live Demo ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek CarbonTide -->
+                <div class="portfolio-card glass-panel reveal web">
+                    
+                    <!-- Gunakan placeholder warna dulu, ganti dengan <img> jika sudah ada gambarnya -->
+                    <img src="assets/images/carbon-cover.png" alt="CarbonTide Profile Project" class="project-img">
+                    <!-- <img src="assets/images/carbontide-cover.jpg" alt="CarbonTide Project" class="project-img"> -->
+                    
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Web Platform</span>
+                            <span class="year-badge">2026</span>
+                        </div>
+                        <h3>CarbonTide</h3>
+                        
+                        <p class="short-desc">Platform website yang berfokus pada inisiatif, edukasi, dan pengelolaan ekosistem blue carbon.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Fokus Proyek:</strong> Merancang dan mengembangkan antarmuka website untuk memfasilitasi informasi dan pelestarian ekosistem pesisir serta laut yang berperan penting dalam penyerapan karbon global.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="#" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Optifin (2025) -->
+                <div class="portfolio-card glass-panel reveal uiux mobile">
+                    <img src="assets/images/optifin-cover.png" alt="Optifin Profile Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">UI/UX Design</span>
+                            <span class="year-badge">2025</span>
+                        </div>
+                        <h3>Optifin</h3>
+                        
+                        <p class="short-desc">Aplikasi manajemen keuangan inklusif untuk memastikan literasi finansial dapat diakses oleh semua kalangan.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Tanggung Jawab:</strong> Merancang wireframe, menyusun user persona, membuat diagram ERD, dan memfasilitasi usability testing menggunakan Figma.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://www.figma.com/design/zZKpkeZdeBRZeyrcxSHlfV/Optifin?node-id=48-52&p=f&t=lfHHVk6wmsa9WEii-0" target="_blank" class="btn btn-primary btn-sm direct-link">Live Demo ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. AURA (2025) -->
+                <div class="portfolio-card glass-panel reveal mobile uiux">
+                    <img src="assets/images/aura-cover.png" alt="AURA Profile Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Mobile App</span>
+                            <span class="year-badge">2025</span>
+                        </div>
+                        <h3>AURA</h3>
+                        
+                        <p class="short-desc">Aplikasi mobile yang bisa menyatukan olahraga dalam rumah, memantau nutrisi harian, dan memantau air minum harian.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Fitur Terintegrasi:</strong> Dilengkapi juga dengan fitur untuk mencari lokasi olahraga serta memindai nutrisi dalam makanan secara langsung dalam satu aplikasi.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="https://ristek.link/PrototypeAura" target="_blank" class="btn btn-primary btn-sm direct-link">Live Demo ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. ASKMO (2025) -->
+                <div class="portfolio-card glass-panel reveal web uiux">
+                    <img src="assets/images/askmo-cover.png" alt="ASKMO Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Platform Integration</span>
+                            <span class="year-badge">2025</span>
+                        </div>
+                        <h3>ASKMO (Ask Map Olahraga)</h3>
+                        
+                        <p class="short-desc">Platform digital terintegrasi yang menghubungkan komunitas olahraga dengan berbagai fasilitas terdekat.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Fungsi Utama:</strong> Memudahkan pencarian dan pengelolaan event olahraga, serta memfasilitasi koneksi langsung antara pengguna dengan pelatih profesional.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="#" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. PanggungSeni (2025) -->
+                <div class="portfolio-card glass-panel reveal web">
+                    <img src="assets/images/panggung-cover.png" alt="PanggungSeni.id Profile Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">Digital Platform</span>
+                            <span class="year-badge">2025</span>
+                        </div>
+                        <h3>PanggungSeni</h3>
+                        
+                        <p class="short-desc">Platform digital yang menghubungkan seniman lokal dengan penikmat seni di berbagai daerah.</p>
+                        
+                        <div class="project-details">
+                            <p><strong>Layanan Interaktif:</strong> Menyediakan pembaruan informasi acara, memfasilitasi pameran virtual, dan sistem pemesanan tiket pertunjukan yang mudah diakses.</p>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="#" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Jitu Academy (2025) -->
+                <!-- Tambahkan 'organizational' di dalam class -->
+                <div class="portfolio-card glass-panel reveal web organizational">
+                    <img src="assets/images/jitu-cover.png" alt="Jitu Academy Project" class="project-img">
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="category">EdTech Platform</span>
+                            <span class="year-badge">2025</span>
+                        </div>
+                        <h3>Jitu Academy</h3>
+                        <p class="short-desc">Platform EdTech yang menyediakan layanan bimbingan belajar intensif untuk pelajar.</p>
+                        <div class="project-details">
+                            <p><strong>Fokus Edukasi:</strong> Menyajikan materi persiapan ujian masuk perguruan tinggi secara terstruktur dengan akses digital yang responsif.</p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="toggle-details-btn">View Details <span class="arrow">↓</span></button>
+                            <a href="#" target="_blank" class="btn btn-primary btn-sm direct-link">Visit Site ↗</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section bg-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>My <span>Experience</span></h2>
+                <p>Perjalanan karir dan organisasi saya.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <span class="date">2026 - Sekarang</span>
+                        <h3>Lead of Digital Product Design</h3>
+                        <h4>Ristek Fasilkom UI</h4>
+                        <p>Memimpin divisi Digital Product Design dalam mengelola dan mengeksekusi berbagai proyek desain produk, serta menjadi pengajar utama internal class.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <span class="date">2025 - Sekarang</span>
+                        <h3>Curriculum UI/UX</h3>
+                        <h4>GDGOC UI</h4>
+                        <p>Menyusun kurikulum pembelajaran UI/UX dan merancang silabus, materi presentasi, serta studi kasus yang relevan dengan standar industri.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <span class="date">2025 - 2026</span>
+                        <h3>Project Manager - Bisnis & Kemitraan</h3>
+                        <h4>BEM Fasilkom UI</h4>
+                        <p>Memimpin inisiatif proyek dan memastikan program berjalan sesuai dengan linimasa dan tujuan strategis organisasi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content reveal">
+                <h2>Let's work together!</h2>
+                
+                <!-- Tombol yang langsung membuka aplikasi email dengan subjek otomatis -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmadfauzan2125@gmail.com&su=Hello%20Fauzan,%20I'm%20Interested%20in%20Your%20Portfolio!" target="_blank" class="btn btn-primary">
+                    ahmadfauzan2125@gmail.com
+                </a>
+                
+                <!-- Opsional: Jika ingin menambahkan link LinkedIn -->
+                <div style="margin-top: 24px;">
+                    <a href="https://www.linkedin.com/in/ahmad-fauzan-al-ayubi" target="_blank" style="color: var(--text-muted); font-weight: 500;">Connect on LinkedIn ↗</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ahmad Fauzan Al Ayubi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
